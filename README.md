@@ -33,14 +33,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+   Semantic HTML is HTML that conveys meaning through usage of elements. The elements accurately describe the content inside them.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+   Display block elements occupy the entire width of the line regardless of the size of the content. It pushes elements onto the next line. 
+   Inline elements occupy the same line as other inline elements and take up only the width necessary.
 
 3. What are the 4 areas of the box model?
+   The four areas of the box model are content, padding, border, and margin.
+   Padding is the space inside of the border and around the content. 
+   Border outlines the padding.
+   Margin is the space between elements.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+   Align-items affects the cross-axis and justify-content affects the main axis. 
+   If the flex direction is row, then the cross axis is vertical; if the flex direction is column, then the cross axis is horizontal.
 
 5. Explain why git is valuable to a team of developers.
+   Git is a valuable tool for teams because it allows developers to work on a single project on their local machines simultaneously and tracks all code additions and deletions. It allows developers to make changes without affecting others, avoiding conflict as a result. The changes are then reviewed by members of the team before the branches are merged into the main codebase.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
